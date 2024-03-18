@@ -1,11 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praktikum 3 - CSS</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Praktikum 3 - CSS</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+  <img src="img/backgroundImage.png" alt="Web Development">
+
+  <nav>
+    <ul>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="#">PRODUCTS</a></li>
+      <li><a href="#">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="container">
+      <div class="left-content">
+        <h2>Biodata</h2>
+        <img src="img/iam.jpg" alt="Biodata" id="photo">
+        <p>Hi, my name is Hidayah, I'm a frontend web developer and content creator who enjoys a variety of topics. My
+          content often focuses on self-development, motivation, and coding tips as a progammer, you can check on my
+          instagram account @hidayahrenazr for the rest.</p>
+        <p>I open for any kind of collaboration, job vacancies, or partnership, to build and achieve something. That's
+          all from me and hopefully we can meet soon in the future!</p>
+      </div>
+      <div class="right-content">
+        <h2 id="side">Work Experience</h2>
+
+        <table>
+          <thead>
+            <tr>
+              <th class="th">Year</th>
+              <th class="th">Jobs</th>
+              <th class="th">Position</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2021</td>
+              <td>PT Global Intermedia Nusantara</td>
+              <td>Frontend Web Developer</td>
+            </tr>
+            <tr>
+              <td>2024</td>
+              <td>Assistant Forum</td>
+              <td>Lab Assistant</td>
+            </tr>
+            <tr>
+              <td>Future</td>
+              <td>My Company</td>
+              <td>Founder</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="containerFooter">
+      <p>&copy; Copyright Challenge Pemrograman Web</p>
+    </div>
+  </footer>
 </body>
+
 </html>
